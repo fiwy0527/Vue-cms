@@ -1,0 +1,12 @@
+{
+    "presets":["env","stage-0"],
+    "plugins":[
+        "transform-runtime",
+        // 取消babel严格模式
+        "transform-remove-strict-mode",
+        [
+            "component",
+             {"libraryName":"mint-ui", "style":true}
+        ]
+    ]
+}
